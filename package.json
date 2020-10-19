@@ -1,0 +1,17 @@
+{
+  "name": "my-gridsome-site",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "gridsome": "^0.7.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.14.1",
+    "sass-loader": "^10.0.3"
+  }
+}

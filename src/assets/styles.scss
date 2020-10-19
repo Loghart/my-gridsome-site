@@ -1,0 +1,11 @@
+@import "variables";
+@import "~bootstrap/scss/bootstrap";
+
+body {
+    background:$background-color;
+    color:$text-color;
+}
+
+a {
+    color:$link-color;
+}
