@@ -2,11 +2,10 @@
   <div class="layout">
     <header class="header">
       <strong>
-        <g-link to="/">{{ $static.metadata.siteName }}</g-link>
+
       </strong>
       <nav class="nav">
-        <g-link class="nav__link" to="/">Home</g-link>
-        <g-link class="nav__link" to="/about/">About</g-link>
+
       </nav>
     </header>
     <slot/>
@@ -30,21 +29,21 @@ body {
 }
 
 .layout {
-  max-width: 760px;
+  max-width: 100%;
   margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
-  height: 80px;
+  margin-bottom: 0;
+  height: 0;
 }
 
 .nav__link {
-  margin-left: 20px;
+  margin-left: 0;
 }
 </style>

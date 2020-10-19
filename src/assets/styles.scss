@@ -1,11 +1,5 @@
 @import "variables";
+@import "general";
+@import "navigation";
 @import "~bootstrap/scss/bootstrap";
-
-body {
-    background:$background-color;
-    color:$text-color;
-}
-
-a {
-    color:$link-color;
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
