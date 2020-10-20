@@ -17,7 +17,17 @@
         <h2>Krzysztof Mika</h2>
       </div>
     </div>
-
+    <div class="flex-container">
+ <nav class="nav">
+              <ul>
+                <li><a href="Index.vue"></a>STRONA GŁÓWNA</li>
+                <li><a href="Indywidualna.vue"></a>OFERTA INDYWIDUALNA</li>
+                <li><a href="Biznes.vue"></a>OFERTA BIZNESOWA</li>
+                <li><a href="oNas.vue"></a>O NAS</li>
+                <li><a href="Kontakt.vue"></a>KONTAKT</li>
+              </ul>
+            </nav>
+    </div>
     </header>
     
   </Layout>
