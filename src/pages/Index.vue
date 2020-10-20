@@ -16,8 +16,8 @@
         <h1>AGENCJA DETEKTYWISTYCZNA</h1>
         <h2>Krzysztof Mika</h2>
       </div>
-
     </div>
+
     </header>
     
   </Layout>
