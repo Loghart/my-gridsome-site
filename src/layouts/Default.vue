@@ -1,49 +1,12 @@
 <template>
-  <div class="layout">
-    <header class="header">
-      <strong>
+  <main>
+    <Header />
 
-      </strong>
-      <nav class="nav">
-
-      </nav>
-    </header>
-    <slot/>
-  </div>
+    <!-- Kind of {children} from React -->
+    <slot />
+  </main>
 </template>
 
-<static-query>
-query {
-  metadata {
-    siteName
-  }
-}
-</static-query>
-
-<style>
-body {
-  font-family: 'Inter', sans-serif;
-  margin:0;
-  padding:0;
-  line-height: 1.5;
-}
-
-.layout {
-  max-width: 100%;
-  margin: 0 auto;
-  padding-left: 0;
-  padding-right: 0;
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 0;
-  height: 0;
-}
-
-.nav__link {
-  margin-left: 0;
-}
+<style lang="scss">
+@import "@/assets/general.scss";
 </style>

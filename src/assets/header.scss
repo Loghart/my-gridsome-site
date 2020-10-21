@@ -1,0 +1,54 @@
+// All styles for header component
+
+@import "variables";
+
+.header {
+
+  // header-top
+  &-top {
+    background: $primaryColor;
+    padding: 4px 0;
+    margin-bottom: 30px;
+
+    .container {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .contact-item {
+      &:last-child {
+        margin-left: 20px;
+      }
+
+      svg {
+        width: 17px;
+        stroke: $textColor;
+        margin-right: 10px;
+      }
+
+      a {
+        text-decoration: none;
+        font-size: .85rem;
+        color: $textColor;
+      }
+    }
+  }
+
+  .logo {
+    a {
+      color: $textColor;
+    }
+  }
+
+  .navigation {
+    ul {
+      li {
+        display: inline-block;
+        margin-left: 20px;
+        a {
+          color: $textColor;
+        }
+      }
+    }
+  }
+}
