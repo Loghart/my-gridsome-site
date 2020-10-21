@@ -18,7 +18,7 @@
       </div>
     </div>
     <div class="flex-container">
- <nav class="nav">
+            <nav class="nav">
               <ul>
                 <li><a href="Index.vue"></a>STRONA GŁÓWNA</li>
                 <li><a href="Indywidualna.vue"></a>OFERTA INDYWIDUALNA</li>
@@ -26,9 +26,14 @@
                 <li><a href="oNas.vue"></a>O NAS</li>
                 <li><a href="Kontakt.vue"></a>KONTAKT</li>
               </ul>
-            </nav>
+                <button class="hamburger hamburger--collapse" type="button">
+                  <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                  </span>
+                </button>
+            </nav> 
     </div>
-    </header>
+  </header>
     
   </Layout>
 </template>
