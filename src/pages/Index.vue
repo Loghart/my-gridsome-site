@@ -10,7 +10,7 @@
         komponenty, które możesz wykorzystać w różnych miejscach na stronie,
         dodałem tam nowy komponent o nazwie Header - linia 12. Zawartość tego
         komponentu importuję w linii 7, kumasz czacze? Teraz w Index albo About
-        mógłbyś wjebać <strong>< Header /></strong> ale tego nie zrobisz, czemu?
+        mógłbyś wjebać <strong><Header /></strong> ale tego nie zrobisz, czemu?
         Bo mamy już główny layout o nazwie <strong>Default.vue</strong>. W
         Default.vue wpierdalam sobie Header i teraz każda nowa strona będzie
         używać tego layouta (oczywiście jak w template dodasz
@@ -20,7 +20,7 @@
       <p>Znajdziesz tam ten tekst, który teraz czytasz</p>
       <p>
         Dodałem komentarz pod tym paragragem, weź usuń strzałki, żeby widzieć
-        sam <strong>< Header /> (bez spacji pomiędzy < a H)</strong>
+        sam <strong><Header/> (bez spacji pomiędzy  a H)</strong>
       </p>
       <!-- <Header /> -->
 
