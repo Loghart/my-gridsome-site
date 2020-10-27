@@ -11,3 +11,5 @@ export default function (Vue, { router, head, isClient }) {
   Vue.component('Layout', DefaultLayout)
   Vue.component('Header', Header)
 }
+
+

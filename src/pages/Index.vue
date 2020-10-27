@@ -34,6 +34,29 @@
       </p>
       <p>Pozdro 600</p>
     </div>
+      <div class="logo-text">
+        <h1>AGENCJA DETEKTYWISTYCZNA</h1>
+        <h2>Krzysztof Mika</h2>
+      </div>
+    
+    <div class="flex-container">
+            <nav class="nav">
+              <ul>
+                <li><a href="Index.vue"></a>STRONA GŁÓWNA</li>
+                <li><a href="Indywidualna.vue"></a>OFERTA INDYWIDUALNA</li>
+                <li><a href="Biznes.vue"></a>OFERTA BIZNESOWA</li>
+                <li><a href="oNas.vue"></a>O NAS</li>
+                <li><a href="Kontakt.vue"></a>KONTAKT</li>
+              </ul>
+                <button class="hamburger hamburger--collapse" type="button">
+                  <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                  </span>
+                </button>
+            </nav> 
+    </div>
+  
+    
   </Layout>
 </template>
 
