@@ -1,0 +1,126 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+
+
+    @media screen and (max-width: 320px) {
+    
+        .logo-text {
+        
+            h1 {
+                margin-top: 25px;
+                font-weight: bold;
+                font-size: 25px;
+                color: black;
+                text-align: center;
+            }
+
+                h2 {
+                    font-weight: bold;
+                    font-size: 15px;
+                    color: black;
+                    text-align: center;
+            
+                }
+
+        }
+    }
+
+    @media screen and (min-width: 321px) and (max-width: 640px) {
+    
+        .logo-text {
+        
+                h1 {
+                    margin-top: 25px;
+                    font-weight: bold;
+                    font-size: 27px;
+                    color: black;
+                    text-align: center;
+                }
+
+                    h2 {
+                        font-weight: bold;
+                        font-size: 17px;
+                        color: black;
+                        text-align: center;
+            
+                    }
+
+        }
+    }
+
+
+    @media screen and (min-width: 641px) and (max-width: 768px) {
+
+        .logo-text {
+        
+            h1 {
+                margin-top: 35px;
+                font-weight: bold;
+                font-size: 33px;
+                color: black;
+                text-align: center;
+            }
+
+                h2 {
+                    font-weight: bold;
+                    font-size: 20px;
+                    color: black;
+                    text-align: center;
+            
+                }
+
+        }
+    }
+
+    @media screen and (min-width: 769px) and (max-width: 980px) {
+
+        .logo-text {
+        
+            h1 {
+                margin-top: 35px;
+                font-weight: bold;
+                font-size: 40px;
+                color: black;
+                text-align: center;
+            }
+
+                h2 {
+                    font-weight: bold;
+                    font-size: 25px;
+                    color: black;
+                    text-align: center;
+            
+                }
+
+        }
+    }
+
+    @media screen and (min-width: 981px) and (max-width: 2980px) {
+
+        .logo-text {
+        
+            h1 {
+                margin-top: 65px;
+                font-weight: bold;
+                font-size: 60px;
+                color: black;
+                text-align: center;
+            }
+
+                h2 {
+                    font-weight: bold;
+                    font-size: 25px;
+                    color: black;
+                    text-align: center;
+            
+                }
+        }
+    }
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1.5;
+}

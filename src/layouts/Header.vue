@@ -49,17 +49,11 @@
           <li><a href="#">Kontakt</a></li>
         </ul>
       </nav>
-      <div
-        class="hamburger hamburger--elastic"
-        tabindex="0"
-        aria-label="Menu"
-        role="button"
-        aria-controls="navigation"
-      >
-        <div class="hamburger-box">
-          <div class="hamburger-inner"></div>
-        </div>
-      </div>
+      <button class="hamburger hamburger--collapse is-active" type="button">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
     </div>
   </header>
 </template>
