@@ -37,7 +37,7 @@
     </div>
 
     <!-- Actual header -->
-    <div class="container d-flex justify-content-between">
+    <div class="container d-flex justify-content-between align-items-center">
       <div class="logo">
         <a href="/">AGENCJA DETEKTYWISTYCZNA</a>
       </div>

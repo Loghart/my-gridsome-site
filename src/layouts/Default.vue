@@ -1,6 +1,7 @@
 <template>
   <main>
     <Header />
+    <Hero />
     <!-- Kind of {children} from React -->
     <slot />
   </main>
