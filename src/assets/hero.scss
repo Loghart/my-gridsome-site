@@ -1,0 +1,18 @@
+@import "variables";
+
+
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    
+
+    &-image {
+        width: 100%;
+        display: block;
+    }
+
+    .container {
+        padding: 0;
+    }
+}

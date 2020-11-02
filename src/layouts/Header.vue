@@ -49,7 +49,7 @@
           <li><a href="#">Kontakt</a></li>
         </ul>
       </nav>
-      <button class="hamburger hamburger--collapse is-active" type="button">
+      <button class="hamburger hamburger--collapse" type="button">
         <span class="hamburger-box">
           <span class="hamburger-inner"></span>
         </span>
@@ -62,11 +62,14 @@
 export default {
   mounted() {
     let hamburger = document.querySelector(".hamburger");
+    let navigation = document.querySelector(".navigation");
     hamburger.addEventListener("click", function() {
       hamburger.classList.toggle("is-active");
+      navigation.classList.toggle("is-active");
     });
   },
 };
+
 </script>
 
 <style lang="scss">

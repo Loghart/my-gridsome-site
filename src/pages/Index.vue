@@ -1,6 +1,6 @@
 <template>
   <Layout>
-
+    <Hero />
   </Layout>
 </template>
 
