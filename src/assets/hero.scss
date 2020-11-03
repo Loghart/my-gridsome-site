@@ -1,18 +1,43 @@
 @import "variables";
 
-
-
 .hero {
-    display: flex;
-    flex-direction: column;
-    
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 
-    &-image {
-        width: 100%;
-        display: block;
-    }
+  &-image {
+    width: 100%;
+    display: block;
+  }
 
-    .container {
-        padding: 0;
+  .container {
+    padding: 0;
+
+    .row {
+      margin-top: 100px;
+      text-align: center;
+
+      .dupa {
+        color: black;
+        text-align: left;
+      }
+      .col-sm-12 {
+        h1 {
+          font-weight: bold;
+          text-align: left;
+        }
+      }
+      .col-sm-4 {
+        color: black;
+
+        h3 {
+          font-weight: bold;
+        }
+
+        p {
+          padding-top: 25px;
+        }
+      }
     }
+  }
 }
