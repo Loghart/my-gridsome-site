@@ -6,6 +6,7 @@
   width: 100%;
 
   &-image {
+      margin-top: 5px;
     width: 100%;
     display: block;
   }
@@ -20,11 +21,18 @@
       .dupa {
         color: black;
         text-align: left;
+
+        p {
+            margin-top: 20px;
+            margin-bottom: 240px;
+        }
       }
       .col-sm-12 {
         h1 {
+            margin-bottom: 30px;
           font-weight: bold;
           text-align: left;
+          border-bottom: black 1px;
         }
       }
       .col-sm-4 {
@@ -32,6 +40,7 @@
 
         h3 {
           font-weight: bold;
+         
         }
 
         p {

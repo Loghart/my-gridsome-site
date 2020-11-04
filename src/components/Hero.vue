@@ -2,22 +2,22 @@
   <section class="hero">
     <div class="container">
       <div class="hero-img">
-        <g-image class="hero-image" src="~/images/puzzle.jpg" width="6000" />
+        <g-image class="hero-image" src="~/images/tło.jpg" width="1500" height="750px"/>
       </div>
       <div class="row">
         <div class="col-sm-4">
-          <h3>Dyskrecja</h3>
-          <p>Sprawą priorytetową dla naszej firmy jest dyskrecja.</p>
+          <h3>DYSKRECJA</h3>
+          <p>Sprawą priorytetową dla naszej firmy - z przyczyn oczywistych, jest dyskrecja.</p>
         </div>
         <div class="col-sm-4">
-          <h3>Profesjonalizm</h3>
+          <h3>PROFESJONALIZM</h3>
           <p>
-            Lada doświadczeń w kryminalistyce sprawiają, że lece ostro bez
+            Posiadamy wszelkie potrzebne licencje oraz pozwolenia. Lata doświadczeń w kryminalistyce sprawiają, że lece ostro bez
             trzymanki elo.
           </p>
         </div>
         <div class="col-sm-4">
-          <h3>Zaangażowanie</h3>
+          <h3>ZAANGAŻOWANIE</h3>
           <p>
             Każda sprawa jest dla nas priorytetowa. Wkładamy ogrom sił w
             ustaleniu prawdy.
@@ -25,6 +25,7 @@
         </div>
         <div class="row">
           <div class="col-sm-12">
+                      <g-image class="hero-image" src="~/images/detective.jpg" width="1500" height="1000px"/>
             <h1>Krzysztof Mika</h1>
           </div>
           <div class="col-sm-9 dupa">
