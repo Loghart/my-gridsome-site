@@ -11,6 +11,8 @@
     "gridsome": "^0.7.0"
   },
   "devDependencies": {
+    "eslint": "^7.13.0",
+    "eslint-plugin-vue": "^7.1.0",
     "node-sass": "^4.14.1",
     "sass-loader": "^10.0.3"
   }
