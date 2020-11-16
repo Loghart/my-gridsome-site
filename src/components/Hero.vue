@@ -10,7 +10,7 @@
         />
         <p class="text">
           Najczęściej wybierane usługi.
-          <button type="button">Click Me!</button>
+          <button type="button">Oferta</button>
         </p>
       </div>
       <div class="row">
@@ -67,7 +67,7 @@
         </div>
         <div class="col-sm-12">
           <h3>ZAANGAŻOWANIE</h3>
-          <p>
+          <p class="last-text">
             Każda sprawa jest dla nas priorytetowa. Wkładamy ogrom sił w
             ustaleniu prawdy. Każda sprawa jest dla nas priorytetowa. Wkładamy ogrom sił w
             ustaleniu prawdy. Każda sprawa jest dla nas priorytetowa. Wkładamy ogrom sił w
