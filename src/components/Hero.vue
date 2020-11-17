@@ -9,8 +9,8 @@
           height="750px"
         />
         <p class="text">
-          Najczęściej wybierane usługi.
-          <button type="button">Oferta</button>
+          Chcesz wiedzieć jak wygląda współpraca?
+          <button class="button" type="button">Oferta</button>
         </p>
       </div>
       <div class="row">
