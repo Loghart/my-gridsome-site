@@ -1,8 +1,15 @@
 <template>
   <Layout>
+
 <ul id="test">
   <li v-for="item in items" :key="item.message">
     {{ item.message }}
+  </li>
+</ul>
+
+<ul class="dupa">
+  <li v-for="item in items" :key="item.id">
+    {{ item.id }}
   </li>
 </ul>
 
@@ -15,13 +22,13 @@ export default {
   metaInfo: {
     title: 'About us'
   },
-   data: {
-     message: '',
-    items: [
-      { message: 'Foo' },
-      { message: 'Bar' }
-    ]
-    
+  data() {
+    return {
+      items: [
+        { message: 'Foo', id: 1 }, // item
+        { message: 'Bar', id: 2 }  // item
+      ]
+    }
   }
   
 }

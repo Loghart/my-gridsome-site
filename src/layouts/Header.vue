@@ -43,10 +43,13 @@
       </div>
       <nav class="navigation">
         <ul>
-          <li><a href="#">Strona główna</a></li>
-          <li><a href="#">Oferta indywidualna</a></li>
+          <li v-for="link in navigation" :key="link.title" v-bind:class="link.class"
+          class="duupa">
+            <a v-bind:href="link.href">{{link.title}}</a>
+            </li>
+          <!-- <li><a href="#">Oferta indywidualna</a></li>
           <li><a href="#">Oferta biznesowa</a></li>
-          <li><a href="#">Kontakt</a></li>
+          <li><a href="#">Kontakt</a></li>  -->
         </ul>
       </nav>
       <button class="hamburger hamburger--collapse" type="button">
@@ -68,6 +71,16 @@ export default {
       navigation.classList.toggle("is-active");
     });
   },
+    data() {
+    return {
+      navigation: [
+        { title: "Strona główna", href: "/", class: "home"}, // link
+        { title: "Ofert indywidualna", href: "/oferta-indywidualna"}, // link
+        { title: "Oferta biznesowa", href: "/oferta-biznesowa"}, // link
+        { title: "Kontakt", href: "/kontakt"}, // link
+      ]
+    }
+  }
 };
 
 </script>
