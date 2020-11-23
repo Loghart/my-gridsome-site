@@ -1,7 +1,12 @@
 <template>
   <Layout>
-    <h1>About us</h1>
-    <p>Gdzie są moje pieniadze z jkomuni i kktore sie nigdy nie odbyly</p>
+<ul id="test">
+  <li v-for="item in items" :key="item.message">
+    {{ item.message }}
+  </li>
+</ul>
+
+
   </Layout>
 </template>
 
@@ -9,6 +14,16 @@
 export default {
   metaInfo: {
     title: 'About us'
+  },
+   data: {
+     message: '',
+    items: [
+      { message: 'Foo' },
+      { message: 'Bar' }
+    ]
+    
   }
+  
 }
+
 </script>
