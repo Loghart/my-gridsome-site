@@ -1,6 +1,7 @@
 <template>
   <Layout>
     <Hero />
+    <Footer />
   </Layout>
 </template>
 
